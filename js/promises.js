@@ -3,6 +3,8 @@ const wikiUrl = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
 const peopleList = document.getElementById('people');
 const btn = document.querySelector('button');
 
+// Going to chage script to use async and await
+
 function getJSON(url) {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest()
